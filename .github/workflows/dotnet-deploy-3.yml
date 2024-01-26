@@ -70,9 +70,6 @@ jobs:
   
     runs-on: ubuntu-latest
     needs: dockerBuildPush
-    environment:
-      name: dev
-      url: https://janmq4667a3vo-dev.azurewebsites.net/
     
     steps:
       - name: 'Login via Azure CLI'
