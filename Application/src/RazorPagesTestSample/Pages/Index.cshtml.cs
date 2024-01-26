@@ -84,7 +84,7 @@ namespace RazorPagesTestSample.Pages
                 }
 
                 var avgWordCount = Decimal.Divide(wordCount, Messages.Count);
-                MessageAnalysisResult = $"The average message length is {avgWordCount:0.##} words.";
+                MessageAnalysisResult = $"Die durchschnittliche Nachrichtenlänge beträgt {avgWordCount:0.##} Wörter.";
             }
 
             return RedirectToPage();
