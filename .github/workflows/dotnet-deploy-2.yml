@@ -1,4 +1,4 @@
-name: .NET CI
+name: .NET CI 2
 
 env:
   registryName: janmq4667a3vompnpreg.azurecr.io
