@@ -9,6 +9,10 @@ on:
         - test
         - prod
 
+permissions:
+  id-token: write
+  contents: read
+  
 name: Azure Bicep-Advanced
 jobs:
   build-and-deploy:
